@@ -76,3 +76,6 @@ map <C-f> /
 
 nnoremap <C-h> <C-w><C-h>
 nnoremap <C-l> <C-w><C-l>
+
+
+inoremap <C-w> <C-\><C-o>dB

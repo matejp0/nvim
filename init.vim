@@ -11,8 +11,8 @@ Plug 'preservim/vim-markdown'
 
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'fatih/vim-go'
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
 Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'

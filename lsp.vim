@@ -38,7 +38,7 @@ local cmp = require'cmp'
 local capabilities = require('cmp_nvim_lsp').default_capabilities(vim.lsp.protocol.make_client_capabilities())
 capabilities.textDocument.completion.completionItem.snippetSupport = true
 local nvim_lsp = require('lspconfig')
-local servers = { 'gopls', 'jdtls', 'html', 'cssls', 'tsserver'}
+local servers = { 'gopls', 'jdtls', 'html', 'cssls'} -- 'tsserver'}
 
 local on_attach = function(client, bufnr)
   -- Enable completion triggered by <c-x><c-o>
